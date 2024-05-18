@@ -6,6 +6,10 @@
 > add support to it.
 
 
+This bot will join any active voice channel and greet them with a random line defined in `core/config.js` through voice (TTS).
+
+Users can talk to the bot by refering to it as "Olga".
+
 ## Examples
 
 ```
@@ -46,3 +50,7 @@ then,
 finally,
 
 `npm install && node index.js`
+
+### Languages
+
+Change accordingly in the vosk model iniator. You also need to edit the prompt in `.env` to define what language you want the answer to be in.
